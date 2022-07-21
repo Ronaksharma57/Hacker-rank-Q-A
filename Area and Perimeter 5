@@ -1,0 +1,37 @@
+Take length and breadth of the rectangle as input. And print area of the rectangle in the first line and perimeter of the rectangle in the second line.
+
+Input Format
+
+In the first line, length of the rectangle is given as input. In the second line, breadth of the rectangle is given as input.
+
+Constraints
+
+Inputs will be given in integer format. 1<= length <= 2^31 - 1 1 <= breadth <= 2^31 - 1
+
+Output Format
+
+In the first line Area of the rectangle should be printed. In the second line perimeter of the rectangle should be printed.
+
+
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        
+        int l=sc.nextInt();
+        int w=sc.nextInt();
+        int a=l*w;
+        int x=l+w;
+        int p=2*x;
+        System.out.println(a);
+        System.out.println(p);
+    }
+}
