@@ -1,0 +1,43 @@
+You will be given an integer input, you have to print true if it is greater than 1000 and false otherwise.
+
+Input Format
+
+For each test case, you will be given an integer as input.
+
+Constraints
+
+-2^31 <= Integer Input <= 2^31 -1
+
+Output Format
+
+Print true or false accordingly
+
+Sample Input 0
+
+190
+Sample Output 0
+
+false
+Explanation 0
+
+Since 190 is less than 1000, so we print false.
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int i= sc.nextInt();
+        if(i>1000){
+            System.out.println("true");
+        }
+        else{
+            System.out.println("false");
+        }
+    
+    }
+}
